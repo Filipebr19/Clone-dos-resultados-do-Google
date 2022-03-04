@@ -1,0 +1,222 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.container{
+    display: flex;
+    width: 1226px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo_barsearch{
+    display: flex;
+    align-items: center;
+}
+.container .logo_barsearch img{
+    max-width:100px ;
+}
+.container .logo_barsearch input{
+    outline: none;
+    height: 35px;
+    border-radius: 25px;
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    padding: 24px;
+    box-shadow: 0 1px 4px rgb(32 33 36 /28%);
+    border-color: rgb(223,225,229,0);
+    margin-left:50px ;
+    font-size: 16px;
+}
+.container .logo_barsearch input:hover{
+    box-shadow:  0px 1px 10px rgba(0, 0, 0, 0.28);
+    border-color: rgba(98, 99, 100, 0);
+}
+.container .logo_barsearch .bortao img{
+    max-width: 65px;
+}
+.menu_login{
+    display: flex;
+    align-items: center;
+}
+.config{
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.balls_config{
+    display: flex;
+    justify-content: space-between;
+}
+.balls{
+    height: 4px;
+    width: 4px;
+    background-color: #5f6368;
+    margin: 1px;
+    border-radius: 2px;
+}
+.config:hover{
+    background-color: rgb(236, 236, 236);
+}
+.login{
+    background-color: #1a73e8;
+    color: #FFF;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.login:hover{
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    box-shadow: 0 1px 5px #4285f4;
+}
+.menu{
+    display: flex;
+    margin-left: 126px;
+}
+nav{
+    display: flex;
+}
+.menu ul ,
+.menu li{
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+.menu li{
+    padding-left: 35px;
+    font-size:14px ;
+    color: #5f6368;
+}
+.menu  .active{
+    color: #1a73e9;
+}
+.menu li:hover{
+    color: #1a73e9;
+}
+.conteudo{
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding-top: 15px
+}
+.facebook_pesquisa{
+    width: 600px;
+    margin-left: -276px;
+}
+.number_result{
+    font-size: 14px;
+    color: #70757a;
+}
+.resultados{
+    margin-top: 22px;
+    line-height: 27px;
+}
+.https a{
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+.title a{
+    color: #1a0dab;
+    font-size: 20px;
+    text-decoration: none;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.subtitle{
+    font-size: 15px;
+    color: #4d5156;
+}
+.pesquisa{
+    justify-content: center;
+    width: 100%;
+    margin-top: 35px;
+}
+.pesq_relacionadas{
+    margin-left: -276px;
+    width: 600px;
+}
+.pesq{
+    display: flex;
+}
+.box{
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    width: 345px;
+    height: 45px;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box a{
+    text-decoration: none;
+    color: #000;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+.titulo{
+    font-size:22px;
+    margin-bottom: 16px;
+}
+.footer{
+    align-items: flex-start;
+    width: 100%;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    margin-top:45px ;
+}
+.enderecos{
+    margin-left:70px ;
+    padding-top: 10px;
+}
+.brasil{
+    color: #70757a;
+    border-right:1px solid #cdd0d4;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.barra{
+    width: 100%;
+    height: 1px;
+    background-color: #cdd0d4;
+}
+.config_footer{
+    display: flex;
+    margin-left:33px;
+}
+.config_footer ul,
+.config_footer li{
+    display: flex;
+    text-decoration: none;
+    color: #70757a;
+    padding-right: 22px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.config_footer ul:hover,
+.config_footer li:hover{
+    color: #000;
+}
